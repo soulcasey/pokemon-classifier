@@ -1,0 +1,60 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.pipenv/
+.pipfile
+.pipfile.lock
+poetry.lock
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Unit test / coverage results
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDE / Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swx
+
+# Linting
+*.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Custom
+pokemon/*
