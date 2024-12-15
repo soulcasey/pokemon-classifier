@@ -9,7 +9,7 @@ class_names = torch.load("class_names.pth", weights_only=True)
 
 # Load the model and class names
 model = common.get_model(class_names)
-model.load_state_dict(torch.load("pokemon_classifier.pth", weights_only=True))
+model.load_state_dict(torch.load("pokemon_classifier.pth", weights_only=True, map_location=common.get_device()))
 model.eval()
 device = common.get_device()
 
